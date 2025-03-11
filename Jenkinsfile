@@ -17,8 +17,8 @@ pipeline {
     }
     post {
         always {
-            archiveArtifacts artifacts: 'test-results/**', followSymlinks: false
-    }
+            archiveArtifacts artifacts: '**/test-results/**/trace.zip', followSymlinks: false
+        }
 }
 
 }
