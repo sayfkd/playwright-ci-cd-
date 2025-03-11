@@ -17,7 +17,7 @@ pipeline {
     }
     post {
         always {
-            archiveArtifacts artifacts: '/**.**', allowEmptyArchive: true
+            archiveArtifacts artifacts: '**/**/trace.zip', allowEmptyArchive: true
         }
     }
 }
