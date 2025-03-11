@@ -20,6 +20,12 @@ pipeline {
                     junit '**/results.xml' 
             }
         }
+
+        stage('Publish Allure Report') {
+            steps {
+                archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
+            }
+        }
     }
     
 }

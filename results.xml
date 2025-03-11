@@ -1,62 +1,62 @@
-<testsuites id="" name="" tests="21" failures="0" skipped="0" errors="0" time="34.111591">
-<testsuite name="example.spec.ts" timestamp="2025-03-11T11:30:48.926Z" hostname="chromium" tests="2" failures="0" skipped="0" time="6.042" errors="0">
-<testcase name="has title" classname="example.spec.ts" time="2.294">
+<testsuites id="" name="" tests="21" failures="0" skipped="0" errors="0" time="34.282034">
+<testsuite name="example.spec.ts" timestamp="2025-03-11T13:19:52.884Z" hostname="chromium" tests="2" failures="0" skipped="0" time="6.031" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="2.261">
 </testcase>
-<testcase name="get started link" classname="example.spec.ts" time="3.748">
-</testcase>
-</testsuite>
-<testsuite name="product.spec.ts" timestamp="2025-03-11T11:30:48.926Z" hostname="chromium" tests="3" failures="0" skipped="0" time="7.578" errors="0">
-<testcase name="Affichage des produits" classname="product.spec.ts" time="2.779">
-</testcase>
-<testcase name="Tri des produits par prix croissant" classname="product.spec.ts" time="2.78">
-</testcase>
-<testcase name="add to cart, remove frome cart / icon" classname="product.spec.ts" time="2.019">
+<testcase name="get started link" classname="example.spec.ts" time="3.77">
 </testcase>
 </testsuite>
-<testsuite name="sauce.demo.spec.ts" timestamp="2025-03-11T11:30:48.926Z" hostname="chromium" tests="2" failures="0" skipped="0" time="2.807" errors="0">
-<testcase name="login pom" classname="sauce.demo.spec.ts" time="1.405">
+<testsuite name="product.spec.ts" timestamp="2025-03-11T13:19:52.884Z" hostname="chromium" tests="3" failures="0" skipped="0" time="7.731" errors="0">
+<testcase name="Affichage des produits" classname="product.spec.ts" time="2.844">
 </testcase>
-<testcase name="login negatif" classname="sauce.demo.spec.ts" time="1.402">
+<testcase name="Tri des produits par prix croissant" classname="product.spec.ts" time="2.6">
 </testcase>
-</testsuite>
-<testsuite name="example.spec.ts" timestamp="2025-03-11T11:30:48.926Z" hostname="firefox" tests="2" failures="0" skipped="0" time="11.739" errors="0">
-<testcase name="has title" classname="example.spec.ts" time="4.999">
-</testcase>
-<testcase name="get started link" classname="example.spec.ts" time="6.74">
+<testcase name="add to cart, remove frome cart / icon" classname="product.spec.ts" time="2.287">
 </testcase>
 </testsuite>
-<testsuite name="product.spec.ts" timestamp="2025-03-11T11:30:48.926Z" hostname="firefox" tests="3" failures="0" skipped="0" time="18.864" errors="0">
-<testcase name="Affichage des produits" classname="product.spec.ts" time="7.423">
+<testsuite name="sauce.demo.spec.ts" timestamp="2025-03-11T13:19:52.884Z" hostname="chromium" tests="2" failures="0" skipped="0" time="3.806" errors="0">
+<testcase name="login pom" classname="sauce.demo.spec.ts" time="2.028">
 </testcase>
-<testcase name="Tri des produits par prix croissant" classname="product.spec.ts" time="7.398">
-</testcase>
-<testcase name="add to cart, remove frome cart / icon" classname="product.spec.ts" time="4.043">
+<testcase name="login negatif" classname="sauce.demo.spec.ts" time="1.778">
 </testcase>
 </testsuite>
-<testsuite name="sauce.demo.spec.ts" timestamp="2025-03-11T11:30:48.926Z" hostname="firefox" tests="2" failures="0" skipped="0" time="8.305" errors="0">
-<testcase name="login pom" classname="sauce.demo.spec.ts" time="3.81">
+<testsuite name="example.spec.ts" timestamp="2025-03-11T13:19:52.884Z" hostname="firefox" tests="2" failures="0" skipped="0" time="11.281" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="3.808">
 </testcase>
-<testcase name="login negatif" classname="sauce.demo.spec.ts" time="4.495">
-</testcase>
-</testsuite>
-<testsuite name="example.spec.ts" timestamp="2025-03-11T11:30:48.926Z" hostname="webkit" tests="2" failures="0" skipped="0" time="6.378" errors="0">
-<testcase name="has title" classname="example.spec.ts" time="2.808">
-</testcase>
-<testcase name="get started link" classname="example.spec.ts" time="3.57">
+<testcase name="get started link" classname="example.spec.ts" time="7.473">
 </testcase>
 </testsuite>
-<testsuite name="product.spec.ts" timestamp="2025-03-11T11:30:48.926Z" hostname="webkit" tests="3" failures="0" skipped="0" time="8.221" errors="0">
-<testcase name="Affichage des produits" classname="product.spec.ts" time="2.454">
+<testsuite name="product.spec.ts" timestamp="2025-03-11T13:19:52.884Z" hostname="firefox" tests="3" failures="0" skipped="0" time="17.124" errors="0">
+<testcase name="Affichage des produits" classname="product.spec.ts" time="6.198">
 </testcase>
-<testcase name="Tri des produits par prix croissant" classname="product.spec.ts" time="3.105">
+<testcase name="Tri des produits par prix croissant" classname="product.spec.ts" time="7.562">
 </testcase>
-<testcase name="add to cart, remove frome cart / icon" classname="product.spec.ts" time="2.662">
+<testcase name="add to cart, remove frome cart / icon" classname="product.spec.ts" time="3.364">
 </testcase>
 </testsuite>
-<testsuite name="sauce.demo.spec.ts" timestamp="2025-03-11T11:30:48.926Z" hostname="webkit" tests="2" failures="0" skipped="0" time="3.927" errors="0">
-<testcase name="login pom" classname="sauce.demo.spec.ts" time="1.986">
+<testsuite name="sauce.demo.spec.ts" timestamp="2025-03-11T13:19:52.884Z" hostname="firefox" tests="2" failures="0" skipped="0" time="10.439" errors="0">
+<testcase name="login pom" classname="sauce.demo.spec.ts" time="4.915">
 </testcase>
-<testcase name="login negatif" classname="sauce.demo.spec.ts" time="1.941">
+<testcase name="login negatif" classname="sauce.demo.spec.ts" time="5.524">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2025-03-11T13:19:52.884Z" hostname="webkit" tests="2" failures="0" skipped="0" time="7.102" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="3.232">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="3.87">
+</testcase>
+</testsuite>
+<testsuite name="product.spec.ts" timestamp="2025-03-11T13:19:52.884Z" hostname="webkit" tests="3" failures="0" skipped="0" time="9.311" errors="0">
+<testcase name="Affichage des produits" classname="product.spec.ts" time="2.876">
+</testcase>
+<testcase name="Tri des produits par prix croissant" classname="product.spec.ts" time="3.311">
+</testcase>
+<testcase name="add to cart, remove frome cart / icon" classname="product.spec.ts" time="3.124">
+</testcase>
+</testsuite>
+<testsuite name="sauce.demo.spec.ts" timestamp="2025-03-11T13:19:52.884Z" hostname="webkit" tests="2" failures="0" skipped="0" time="4.554" errors="0">
+<testcase name="login pom" classname="sauce.demo.spec.ts" time="2.486">
+</testcase>
+<testcase name="login negatif" classname="sauce.demo.spec.ts" time="2.068">
 </testcase>
 </testsuite>
 </testsuites>
