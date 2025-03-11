@@ -14,13 +14,12 @@ pipeline {
                 sh 'PLAYWRIGHT_JUNIT_OUTPUT_NAME=results.xml npx playwright test --reporter=junit'
             }
         }
-    }
-    post {
-        always {
-            archiveArtifacts artifacts: '**/trace.zip', allowEmptyArchive: true
-            junit 'result.xml'
 
+        stage('Publish JUnit Report') {
+            steps {
+                    junit '**/results.xml' 
+            }
         }
-}
-
+    }
+    
 }
