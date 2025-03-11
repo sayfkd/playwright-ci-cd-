@@ -18,6 +18,8 @@ pipeline {
     post {
         always {
             archiveArtifacts artifacts: '**/trace.zip', allowEmptyArchive: true
+            junit 'playwright-report/*.xml'
+
         }
 }
 
