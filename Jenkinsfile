@@ -15,5 +15,9 @@ pipeline {
             }
         }
     }
-
+    post {
+        always {
+            archiveArtifacts artifacts: '/**.**', allowEmptyArchive: true
+        }
+    }
 }
