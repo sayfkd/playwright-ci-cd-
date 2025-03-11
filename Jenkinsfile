@@ -20,3 +20,5 @@ pipeline {
             archiveArtifacts artifacts: '**/**/trace.zip', followSymlinks: false
     }
 }
+
+}
