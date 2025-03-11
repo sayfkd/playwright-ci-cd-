@@ -17,7 +17,6 @@ pipeline {
     }
     post {
         always {
-            archiveArtifacts artifacts: '**/**/trace.zip', allowEmptyArchive: true
-        }
+            archiveArtifacts artifacts: 'test-results/product-Affichage-des-produits-chromium/trace.zip', followSymlinks: false        }
     }
 }
