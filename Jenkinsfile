@@ -24,7 +24,7 @@ pipeline {
 
         stage('Publish Allure Report') {
             steps {
-                archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'allure-results/**', allowEmptyArchive: true
             }
         }
     }
